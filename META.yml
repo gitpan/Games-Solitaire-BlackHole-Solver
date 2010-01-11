@@ -1,0 +1,46 @@
+---
+abstract: 'A solver for Black Hole Solitaire'
+author:
+  - 'Shlomi Fish <shlomif@iglu.org.il>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3601'
+keywords:
+  - ai
+  - automated
+  - black
+  - card
+  - cards
+  - 'command line'
+  - 'David Parlett'
+  - dfs
+  - games
+  - hole
+  - patience
+  - solitaire
+  - solver
+  - solving
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Games-Solitaire-BlackHole-Solver
+provides:
+  Games::Solitaire::BlackHole::Solver:
+    file: lib/Games/Solitaire/BlackHole/Solver.pm
+    version: v0.0.1
+  Games::Solitaire::BlackHole::Solver::App:
+    file: lib/Games/Solitaire/BlackHole/Solver/App.pm
+    version: v0.0.1
+requires:
+  Getopt::Long: 0
+  Pod::Usage: 0
+  strict: 0
+  warnings: 0
+resources:
+  homepage: http://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/
+  license: http://www.opensource.org/licenses/mit-license.php
+  repository: http://svn.berlios.de/svnroot/repos/fc-solve/black-hole-solitaire/
+version: v0.0.1
