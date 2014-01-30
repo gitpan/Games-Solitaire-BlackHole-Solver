@@ -3,6 +3,8 @@ package Games::Solitaire::BlackHole::Solver::App;
 use strict;
 use warnings;
 
+use 5.008;
+
 use Getopt::Long;
 use Pod::Usage;
 
@@ -13,11 +15,11 @@ implemented as a class to solve the Black Hole solitaire.
 
 =head1 VERSION
 
-Version 0.0.1
+Version 0.0.2
 
 =cut
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 =head1 SYNOPSIS
 
@@ -36,7 +38,7 @@ And then from the command-line:
 A script that encapsulates this application accepts a filename pointing
 at the file containing the board or C<"-"> for specifying the standard input.
 
-A board looks like this and can be generated for PySol using the 
+A board looks like this and can be generated for PySol using the
 make_pysol_board.py in the contrib/ .
 
     Foundations: AS
@@ -279,6 +281,13 @@ sub run
     exit(! $verdict);
 }
 
+=head1 SEE ALSO
+
+The Black Hole Solitaire Solvers homepage is at
+L<http://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/>
+and one can find there an implementation of this solver as a C library (under
+the same licence), which is considerably faster and consumes less memory,
+and has had some otehr impovements.
 
 =head1 AUTHOR
 

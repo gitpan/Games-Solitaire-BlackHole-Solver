@@ -1,0 +1,74 @@
+{
+   "abstract" : "A solver for Black Hole Solitaire",
+   "author" : [
+      "Shlomi Fish <shlomif@iglu.org.il>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "keywords" : [
+      "ai",
+      "automated",
+      "black",
+      "card",
+      "cards",
+      "command line",
+      "David Parlett",
+      "dfs",
+      "games",
+      "hole",
+      "patience",
+      "solitaire",
+      "solver",
+      "solving"
+   ],
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Games-Solitaire-BlackHole-Solver",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Getopt::Long" : "0",
+            "Pod::Usage" : "0",
+            "perl" : "5.008",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Games::Solitaire::BlackHole::Solver" : {
+         "file" : "lib/Games/Solitaire/BlackHole/Solver.pm",
+         "version" : "v0.0.2"
+      },
+      "Games::Solitaire::BlackHole::Solver::App" : {
+         "file" : "lib/Games/Solitaire/BlackHole/Solver/App.pm",
+         "version" : "v0.0.2"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/",
+      "license" : [
+         "http://www.opensource.org/licenses/mit-license.php"
+      ],
+      "repository" : {
+         "url" : "http://svn.berlios.de/svnroot/repos/fc-solve/black-hole-solitaire/"
+      }
+   },
+   "version" : "v0.0.2"
+}
